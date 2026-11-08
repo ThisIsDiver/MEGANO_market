@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:16-alpine
+    ports:
+      - "5432:5432"
+    env_file: .env-example
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  web:
+    build: .
+    env_file: .env-example
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./media:/app/media
+      - ./fixtures:/app/fixtures
+    depends_on:
+      - db
+volumes:
+  pgdata:

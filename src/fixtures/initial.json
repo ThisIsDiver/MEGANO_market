@@ -1,0 +1,343 @@
+[
+{
+  "model": "market_api_app.image",
+  "pk": 1,
+  "fields": {
+    "src": "/media/seed/cpu.png",
+    "alt": "CPU"
+  }
+},
+{
+  "model": "market_api_app.image",
+  "pk": 2,
+  "fields": {
+    "src": "/media/seed/gpu.png",
+    "alt": "GPU"
+  }
+},
+{
+  "model": "market_api_app.image",
+  "pk": 3,
+  "fields": {
+    "src": "/media/seed/ram.png",
+    "alt": "RAM"
+  }
+},
+{
+  "model": "market_api_app.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Gaming"
+  }
+},
+{
+  "model": "market_api_app.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Budget"
+  }
+},
+{
+  "model": "market_api_app.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Overclocking"
+  }
+},
+{
+  "model": "market_api_app.tag",
+  "pk": 4,
+  "fields": {
+    "name": "DDR4"
+  }
+},
+{
+  "model": "market_api_app.tag",
+  "pk": 5,
+  "fields": {
+    "name": "DDR5"
+  }
+},
+{
+  "model": "market_api_app.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Ray Tracing"
+  }
+},
+{
+  "model": "market_api_app.category",
+  "pk": 1,
+  "fields": {
+    "is_archived": false,
+    "title": "CPU",
+    "image": 1,
+    "parent": null
+  }
+},
+{
+  "model": "market_api_app.category",
+  "pk": 2,
+  "fields": {
+    "is_archived": false,
+    "title": "GPU",
+    "image": 2,
+    "parent": null
+  }
+},
+{
+  "model": "market_api_app.category",
+  "pk": 3,
+  "fields": {
+    "is_archived": false,
+    "title": "RAM",
+    "image": 3,
+    "parent": null
+  }
+},
+{
+  "model": "market_api_app.product",
+  "pk": 1,
+  "fields": {
+    "is_archived": false,
+    "title": "Intel Core i5-12400F",
+    "description": "6 cores, 12 threads, LGA1700",
+    "full_description": "The ultimate budget-friendly processor for the masses. It supports both DDR4 and DDR5. You can use it for gaming, streaming, and rendering.",
+    "price": "12990.00",
+    "count": 14,
+    "date": "2026-08-14T10:12:00Z",
+    "free_delivery": true,
+    "reviews_count": 0,
+    "rating": 0.0,
+    "category": 1,
+    "images": [
+      1
+    ],
+    "tags": [
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "market_api_app.product",
+  "pk": 2,
+  "fields": {
+    "is_archived": false,
+    "title": "AMD Ryzen 5 5600",
+    "description": "6 cores, 12 threads, AM4",
+    "full_description": "A proven upgrade solution for AM4 from previous generations of AMD Ryzen.",
+    "price": "11450.50",
+    "count": 9,
+    "date": "2026-09-02T18:40:00Z",
+    "free_delivery": false,
+    "reviews_count": 0,
+    "rating": 0.0,
+    "category": 1,
+    "images": [
+      1
+    ],
+    "tags": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "market_api_app.product",
+  "pk": 3,
+  "fields": {
+    "is_archived": false,
+    "title": "Intel Core i7-13700K",
+    "description": "16 cores, 24 threads, LGA1700",
+    "full_description": "The powerful and high-performance Intel Core i7-13700K. If you need power at a reasonable price, go ahead and get it. Liquid cooling is recommended.",
+    "price": "38990.00",
+    "count": 3,
+    "date": "2026-08-27T09:05:00Z",
+    "free_delivery": true,
+    "reviews_count": 0,
+    "rating": 0.0,
+    "category": 1,
+    "images": [
+      1
+    ],
+    "tags": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "market_api_app.product",
+  "pk": 4,
+  "fields": {
+    "is_archived": false,
+    "title": "GeForce RTX 5060",
+    "description": "8 GB GDDR6X, DLSS 5",
+    "full_description": "A good budget-friendly 8GB graphics card with DLSS 4.5 and 5.",
+    "price": "44990.00",
+    "count": 11,
+    "date": "2026-09-08T12:00:00Z",
+    "free_delivery": true,
+    "reviews_count": 0,
+    "rating": 0.0,
+    "category": 2,
+    "images": [
+      2
+    ],
+    "tags": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "market_api_app.product",
+  "pk": 5,
+  "fields": {
+    "is_archived": false,
+    "title": "Radeon RX 7600",
+    "description": "8 GB GDDR6",
+    "full_description": "An alternative for 1080p, a fair price per frame.",
+    "price": "29990.00",
+    "count": 0,
+    "date": "2026-08-19T15:25:00Z",
+    "free_delivery": false,
+    "reviews_count": 0,
+    "rating": 0.0,
+    "category": 2,
+    "images": [
+      2
+    ],
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "market_api_app.product",
+  "pk": 6,
+  "fields": {
+    "is_archived": false,
+    "title": "GeForce RTX 5070 Super",
+    "description": "12 GB GDDR6X, DLSS 5",
+    "full_description": "For 1440p with ray tracing, without compromise.",
+    "price": "64990.00",
+    "count": 5,
+    "date": "2026-09-15T20:10:00Z",
+    "free_delivery": true,
+    "reviews_count": 0,
+    "rating": 0.0,
+    "category": 2,
+    "images": [
+      2
+    ],
+    "tags": [
+      1,
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "market_api_app.product",
+  "pk": 7,
+  "fields": {
+    "is_archived": false,
+    "title": "Kingston Fury Beast 16 GB",
+    "description": "DDR4 3200, 2x8 GB, CL16",
+    "full_description": "A simple kit for Intel and AMD.",
+    "price": "5490.00",
+    "count": 22,
+    "date": "2026-08-11T08:30:00Z",
+    "free_delivery": false,
+    "reviews_count": 0,
+    "rating": 0.0,
+    "category": 3,
+    "images": [
+      3
+    ],
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "market_api_app.product",
+  "pk": 8,
+  "fields": {
+    "is_archived": false,
+    "title": "G.Skill Ripjaws V 32 GB",
+    "description": "DDR4 3600, 2x16 GB, CL18",
+    "full_description": "A nice kit for modern gaming",
+    "price": "10990.00",
+    "count": 7,
+    "date": "2026-09-05T11:45:00Z",
+    "free_delivery": true,
+    "reviews_count": 0,
+    "rating": 0.0,
+    "category": 3,
+    "images": [
+      3
+    ],
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "market_api_app.product",
+  "pk": 9,
+  "fields": {
+    "is_archived": false,
+    "title": "Patriot Viper 4 16 GB",
+    "description": "DDR4 3200, 2x8 GB",
+    "full_description": "Budget-friendly option.",
+    "price": "4890.00",
+    "count": 13,
+    "date": "2026-08-23T17:55:00Z",
+    "free_delivery": false,
+    "reviews_count": 0,
+    "rating": 0.0,
+    "category": 3,
+    "images": [
+      3
+    ],
+    "tags": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "market_api_app.sale",
+  "pk": 1,
+  "fields": {
+    "title": "Успей взять RTX 4060",
+    "price": "34990.00",
+    "sale_price": "31490.00",
+    "date_from": "2026-09-21",
+    "date_to": "2026-09-28",
+    "product": 4,
+    "images": [
+      2
+    ]
+  }
+},
+{
+  "model": "market_api_app.sale",
+  "pk": 2,
+  "fields": {
+    "title": "Скидка на Ryzen 5 5600",
+    "price": "11450.50",
+    "sale_price": "9990.00",
+    "date_from": "2026-09-14",
+    "date_to": "2026-09-21",
+    "product": 2,
+    "images": [
+      1
+    ]
+  }
+}
+]
